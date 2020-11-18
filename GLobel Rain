@@ -1,0 +1,147 @@
+import java.util.Scanner;
+public class pet {
+	public static main(String[]args) {
+		Scanner scnr = new Scanner(System.in);
+		public String petName;
+		public int petAge;
+		public double petWeight;
+		char userChar = 'a';
+		cat_space[]=12;
+		dog_space[]=30;
+		//Are you checking in or out
+		System.out.println("Are you checking in or out?" );
+		System.out.println("Enter I for check-in and O for out:");
+		userChar=scnr.next().charAt(0);
+		public Pet_Class(String petName,int petAge,
+				double petWeight ) {
+				this.petName = petName;
+				this.petAge = petAge;
+				this.petWeight = petWeight;
+			}
+			public void setpetName(String petName) {
+				this.petName=petName;
+			}
+			public void setpetAge(int petAge) {
+				this.petAge=petAge;
+			}
+		    public void setpetWeight(double petWeight) {
+		    	this.petWeight=petWeight;
+		    }
+		    public String getName()
+		    {
+		    	return this.petName;
+		    }
+		    public int getAge()
+		    {
+		    	return this.petAge;
+		    }
+		    public double getWeight()
+		    {
+		    	return this.petWeight;
+		    }
+		   
+		}
+
+		if (userChar = 'I') {
+			//Ask about the pet
+			System.out.println("Is the pet dao or cat?");
+			System.out.println("Enter D for Dog and C for cat");
+			userPet=scnr.next().charAt(1);
+			if (userPet = 'D')
+			{
+				if (dog_space =< 30)
+				{
+					System.out.print("Allow pet.");
+				}
+				else {
+					System.out.print("No space.");
+				}
+			}
+			else if (userPet = 'C')
+			{
+				if (cat_space =< 12)
+				{
+					System.out.print("Allow pet.");
+				}
+				else {
+					System.out.print("No space.");
+				}
+			}
+			//ask about new or returning
+			System.out.println("If the pet new or returning?");
+			System.out.println("Enter N for New and R for returning");
+			if (userChar = 'N') {
+				System.out.println("Welcome!");
+				public Pet_Class(String petName,int petAge,
+						double petWeight ) {
+						this.petName = petName;
+						this.petAge = petAge;
+						this.petWeight = petWeight;
+					}
+					public void setpetName(String petName) {
+						this.petName=petName;
+					}
+					public void setpetAge(int petAge) {
+						this.petAge=petAge;
+					}
+				    public void setpetWeight(double petWeight) {
+				    	this.petWeight=petWeight;
+				    }
+				    public String getName()
+				    {
+				    	return this.petName;
+				    }
+				    public int getAge()
+				    {
+				    	return this.petAge;
+				    }
+				    public double getWeight()
+				    {
+				    	return this.petWeight;
+				    }
+				   
+				}
+			else {
+		        System.out.println("Lets update data.");
+			}
+			}
+		}
+	    else if (userChar = 'O')
+			{
+			 //checking about grooming
+	    	if (userPet = 'D' & petWeight =>30)
+			{
+			 double boarding_fee = 35;
+			 double grooming_fee= 29.95;
+			 int total;
+			 total = boarding_fee +grooming_fee;
+			 System.out.println("Toatl: $ "+ total);
+			}
+	    	else if (userPet = 'D' & (20 < petWeight >30)){
+	    		double boarding_fee = 29;
+				 double grooming_fee= 24.95;
+				 int total;
+				 total = boarding_fee +grooming_fee;
+				 System.out.println("Toatl: $ "+ total);
+	    	}
+	    	else if (userPet = 'D' & (20 > petWeight)){
+	    		double boarding_fee = 24;
+				 double grooming_fee= 19.95;
+				 int total;
+				 total = boarding_fee +grooming_fee;
+				 System.out.println("Toatl: $ "+ total);
+	    	}
+	    	
+			else if (userPet = 'C')
+			{
+				double boarding_fee = 18;
+				 double grooming_fee= 0;
+				 int total;
+				 total = boarding_fee +grooming_fee;
+				 System.out.println("Toatl: $ "+ total);
+			}
+	    	
+			}
+		
+	}
+}
